@@ -1,0 +1,14 @@
+Lugares
+Heladeria
+Ferreteria
+Plaza_Bolivar
+Universidad
+Terminal
+
+Rutas
+RutaA -> Heladeria:Ferreteria = P:2.5; B:0; C:1.0
+RutaB -> Heladeria:Ferreteria = P:2.5; B:13.0; C:10.0
+RutaC -> Ferreteria:Plaza_Bolivar = P:5.0; B:2.0; C:1.5
+RutaD -> Plaza_Bolivar:Universidad = P:1.0; B:0; C:0.5
+RutaE -> Universidad:Terminal = P:4.0; B:3.5; C:2.0
+RutaF -> Terminal:Heladeria = P:6.0; B:4.0; C:3.0
