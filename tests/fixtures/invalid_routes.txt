@@ -1,0 +1,4 @@
+Lugares
+A
+B
+RutaAB -> A:B = P:costo_invalido; B:5; C:1

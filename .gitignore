@@ -1,0 +1,32 @@
+# Build output
+build/
+bin/
+obj/
+out/
+*.o
+*.obj
+*.a
+*.so
+*.dll
+*.exe
+*.out
+
+# Editor files
+.vscode/
+.idea/
+*.swp
+*.tmp
+*~
+
+# OS files
+.DS_Store
+Thumbs.db
+
+# Logs and env
+*.log
+.env*
+
+# C auto tooling
+autom4te.cache/
+config.status
+config.log

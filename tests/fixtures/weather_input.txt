@@ -1,0 +1,5 @@
+tests/fixtures/valid_routes.txt
+tests/fixtures/weather_walk_zero.txt
+A
+D
+s

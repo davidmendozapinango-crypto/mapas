@@ -1,0 +1,301 @@
+Lugares
+Place0
+Place1
+Place2
+Place3
+Place4
+Place5
+Place6
+Place7
+Place8
+Place9
+Place10
+Place11
+Place12
+Place13
+Place14
+Place15
+Place16
+Place17
+Place18
+Place19
+Place20
+Place21
+Place22
+Place23
+Place24
+Place25
+Place26
+Place27
+Place28
+Place29
+Place30
+Place31
+Place32
+Place33
+Place34
+Place35
+Place36
+Place37
+Place38
+Place39
+Place40
+Place41
+Place42
+Place43
+Place44
+Place45
+Place46
+Place47
+Place48
+Place49
+Ruta_0_next -> Place0:Place1 = P:1; B:1; C:1
+Ruta_1_next -> Place1:Place2 = P:1; B:1; C:1
+Ruta_2_next -> Place2:Place3 = P:1; B:1; C:1
+Ruta_3_next -> Place3:Place4 = P:1; B:1; C:1
+Ruta_4_next -> Place4:Place5 = P:1; B:1; C:1
+Ruta_5_next -> Place5:Place6 = P:1; B:1; C:1
+Ruta_6_next -> Place6:Place7 = P:1; B:1; C:1
+Ruta_7_next -> Place7:Place8 = P:1; B:1; C:1
+Ruta_8_next -> Place8:Place9 = P:1; B:1; C:1
+Ruta_9_next -> Place9:Place10 = P:1; B:1; C:1
+Ruta_10_next -> Place10:Place11 = P:1; B:1; C:1
+Ruta_11_next -> Place11:Place12 = P:1; B:1; C:1
+Ruta_12_next -> Place12:Place13 = P:1; B:1; C:1
+Ruta_13_next -> Place13:Place14 = P:1; B:1; C:1
+Ruta_14_next -> Place14:Place15 = P:1; B:1; C:1
+Ruta_15_next -> Place15:Place16 = P:1; B:1; C:1
+Ruta_16_next -> Place16:Place17 = P:1; B:1; C:1
+Ruta_17_next -> Place17:Place18 = P:1; B:1; C:1
+Ruta_18_next -> Place18:Place19 = P:1; B:1; C:1
+Ruta_19_next -> Place19:Place20 = P:1; B:1; C:1
+Ruta_20_next -> Place20:Place21 = P:1; B:1; C:1
+Ruta_21_next -> Place21:Place22 = P:1; B:1; C:1
+Ruta_22_next -> Place22:Place23 = P:1; B:1; C:1
+Ruta_23_next -> Place23:Place24 = P:1; B:1; C:1
+Ruta_24_next -> Place24:Place25 = P:1; B:1; C:1
+Ruta_25_next -> Place25:Place26 = P:1; B:1; C:1
+Ruta_26_next -> Place26:Place27 = P:1; B:1; C:1
+Ruta_27_next -> Place27:Place28 = P:1; B:1; C:1
+Ruta_28_next -> Place28:Place29 = P:1; B:1; C:1
+Ruta_29_next -> Place29:Place30 = P:1; B:1; C:1
+Ruta_30_next -> Place30:Place31 = P:1; B:1; C:1
+Ruta_31_next -> Place31:Place32 = P:1; B:1; C:1
+Ruta_32_next -> Place32:Place33 = P:1; B:1; C:1
+Ruta_33_next -> Place33:Place34 = P:1; B:1; C:1
+Ruta_34_next -> Place34:Place35 = P:1; B:1; C:1
+Ruta_35_next -> Place35:Place36 = P:1; B:1; C:1
+Ruta_36_next -> Place36:Place37 = P:1; B:1; C:1
+Ruta_37_next -> Place37:Place38 = P:1; B:1; C:1
+Ruta_38_next -> Place38:Place39 = P:1; B:1; C:1
+Ruta_39_next -> Place39:Place40 = P:1; B:1; C:1
+Ruta_40_next -> Place40:Place41 = P:1; B:1; C:1
+Ruta_41_next -> Place41:Place42 = P:1; B:1; C:1
+Ruta_42_next -> Place42:Place43 = P:1; B:1; C:1
+Ruta_43_next -> Place43:Place44 = P:1; B:1; C:1
+Ruta_44_next -> Place44:Place45 = P:1; B:1; C:1
+Ruta_45_next -> Place45:Place46 = P:1; B:1; C:1
+Ruta_46_next -> Place46:Place47 = P:1; B:1; C:1
+Ruta_47_next -> Place47:Place48 = P:1; B:1; C:1
+Ruta_48_next -> Place48:Place49 = P:1; B:1; C:1
+Ruta_49_next -> Place49:Place0 = P:1; B:1; C:1
+Ruta_0_1 -> Place0:Place1 = P:2; B:2; C:2
+Ruta_0_2 -> Place0:Place2 = P:3; B:3; C:3
+Ruta_0_3 -> Place0:Place3 = P:4; B:4; C:4
+Ruta_0_5 -> Place0:Place5 = P:6; B:6; C:6
+Ruta_1_1 -> Place1:Place2 = P:2; B:2; C:2
+Ruta_1_2 -> Place1:Place3 = P:3; B:3; C:3
+Ruta_1_3 -> Place1:Place4 = P:4; B:4; C:4
+Ruta_1_5 -> Place1:Place6 = P:6; B:6; C:6
+Ruta_2_1 -> Place2:Place3 = P:2; B:2; C:2
+Ruta_2_2 -> Place2:Place4 = P:3; B:3; C:3
+Ruta_2_3 -> Place2:Place5 = P:4; B:4; C:4
+Ruta_2_5 -> Place2:Place7 = P:6; B:6; C:6
+Ruta_3_1 -> Place3:Place4 = P:2; B:2; C:2
+Ruta_3_2 -> Place3:Place5 = P:3; B:3; C:3
+Ruta_3_3 -> Place3:Place6 = P:4; B:4; C:4
+Ruta_3_5 -> Place3:Place8 = P:6; B:6; C:6
+Ruta_4_1 -> Place4:Place5 = P:2; B:2; C:2
+Ruta_4_2 -> Place4:Place6 = P:3; B:3; C:3
+Ruta_4_3 -> Place4:Place7 = P:4; B:4; C:4
+Ruta_4_5 -> Place4:Place9 = P:6; B:6; C:6
+Ruta_5_1 -> Place5:Place6 = P:2; B:2; C:2
+Ruta_5_2 -> Place5:Place7 = P:3; B:3; C:3
+Ruta_5_3 -> Place5:Place8 = P:4; B:4; C:4
+Ruta_5_5 -> Place5:Place10 = P:6; B:6; C:6
+Ruta_6_1 -> Place6:Place7 = P:2; B:2; C:2
+Ruta_6_2 -> Place6:Place8 = P:3; B:3; C:3
+Ruta_6_3 -> Place6:Place9 = P:4; B:4; C:4
+Ruta_6_5 -> Place6:Place11 = P:6; B:6; C:6
+Ruta_7_1 -> Place7:Place8 = P:2; B:2; C:2
+Ruta_7_2 -> Place7:Place9 = P:3; B:3; C:3
+Ruta_7_3 -> Place7:Place10 = P:4; B:4; C:4
+Ruta_7_5 -> Place7:Place12 = P:6; B:6; C:6
+Ruta_8_1 -> Place8:Place9 = P:2; B:2; C:2
+Ruta_8_2 -> Place8:Place10 = P:3; B:3; C:3
+Ruta_8_3 -> Place8:Place11 = P:4; B:4; C:4
+Ruta_8_5 -> Place8:Place13 = P:6; B:6; C:6
+Ruta_9_1 -> Place9:Place10 = P:2; B:2; C:2
+Ruta_9_2 -> Place9:Place11 = P:3; B:3; C:3
+Ruta_9_3 -> Place9:Place12 = P:4; B:4; C:4
+Ruta_9_5 -> Place9:Place14 = P:6; B:6; C:6
+Ruta_10_1 -> Place10:Place11 = P:2; B:2; C:2
+Ruta_10_2 -> Place10:Place12 = P:3; B:3; C:3
+Ruta_10_3 -> Place10:Place13 = P:4; B:4; C:4
+Ruta_10_5 -> Place10:Place15 = P:6; B:6; C:6
+Ruta_11_1 -> Place11:Place12 = P:2; B:2; C:2
+Ruta_11_2 -> Place11:Place13 = P:3; B:3; C:3
+Ruta_11_3 -> Place11:Place14 = P:4; B:4; C:4
+Ruta_11_5 -> Place11:Place16 = P:6; B:6; C:6
+Ruta_12_1 -> Place12:Place13 = P:2; B:2; C:2
+Ruta_12_2 -> Place12:Place14 = P:3; B:3; C:3
+Ruta_12_3 -> Place12:Place15 = P:4; B:4; C:4
+Ruta_12_5 -> Place12:Place17 = P:6; B:6; C:6
+Ruta_13_1 -> Place13:Place14 = P:2; B:2; C:2
+Ruta_13_2 -> Place13:Place15 = P:3; B:3; C:3
+Ruta_13_3 -> Place13:Place16 = P:4; B:4; C:4
+Ruta_13_5 -> Place13:Place18 = P:6; B:6; C:6
+Ruta_14_1 -> Place14:Place15 = P:2; B:2; C:2
+Ruta_14_2 -> Place14:Place16 = P:3; B:3; C:3
+Ruta_14_3 -> Place14:Place17 = P:4; B:4; C:4
+Ruta_14_5 -> Place14:Place19 = P:6; B:6; C:6
+Ruta_15_1 -> Place15:Place16 = P:2; B:2; C:2
+Ruta_15_2 -> Place15:Place17 = P:3; B:3; C:3
+Ruta_15_3 -> Place15:Place18 = P:4; B:4; C:4
+Ruta_15_5 -> Place15:Place20 = P:6; B:6; C:6
+Ruta_16_1 -> Place16:Place17 = P:2; B:2; C:2
+Ruta_16_2 -> Place16:Place18 = P:3; B:3; C:3
+Ruta_16_3 -> Place16:Place19 = P:4; B:4; C:4
+Ruta_16_5 -> Place16:Place21 = P:6; B:6; C:6
+Ruta_17_1 -> Place17:Place18 = P:2; B:2; C:2
+Ruta_17_2 -> Place17:Place19 = P:3; B:3; C:3
+Ruta_17_3 -> Place17:Place20 = P:4; B:4; C:4
+Ruta_17_5 -> Place17:Place22 = P:6; B:6; C:6
+Ruta_18_1 -> Place18:Place19 = P:2; B:2; C:2
+Ruta_18_2 -> Place18:Place20 = P:3; B:3; C:3
+Ruta_18_3 -> Place18:Place21 = P:4; B:4; C:4
+Ruta_18_5 -> Place18:Place23 = P:6; B:6; C:6
+Ruta_19_1 -> Place19:Place20 = P:2; B:2; C:2
+Ruta_19_2 -> Place19:Place21 = P:3; B:3; C:3
+Ruta_19_3 -> Place19:Place22 = P:4; B:4; C:4
+Ruta_19_5 -> Place19:Place24 = P:6; B:6; C:6
+Ruta_20_1 -> Place20:Place21 = P:2; B:2; C:2
+Ruta_20_2 -> Place20:Place22 = P:3; B:3; C:3
+Ruta_20_3 -> Place20:Place23 = P:4; B:4; C:4
+Ruta_20_5 -> Place20:Place25 = P:6; B:6; C:6
+Ruta_21_1 -> Place21:Place22 = P:2; B:2; C:2
+Ruta_21_2 -> Place21:Place23 = P:3; B:3; C:3
+Ruta_21_3 -> Place21:Place24 = P:4; B:4; C:4
+Ruta_21_5 -> Place21:Place26 = P:6; B:6; C:6
+Ruta_22_1 -> Place22:Place23 = P:2; B:2; C:2
+Ruta_22_2 -> Place22:Place24 = P:3; B:3; C:3
+Ruta_22_3 -> Place22:Place25 = P:4; B:4; C:4
+Ruta_22_5 -> Place22:Place27 = P:6; B:6; C:6
+Ruta_23_1 -> Place23:Place24 = P:2; B:2; C:2
+Ruta_23_2 -> Place23:Place25 = P:3; B:3; C:3
+Ruta_23_3 -> Place23:Place26 = P:4; B:4; C:4
+Ruta_23_5 -> Place23:Place28 = P:6; B:6; C:6
+Ruta_24_1 -> Place24:Place25 = P:2; B:2; C:2
+Ruta_24_2 -> Place24:Place26 = P:3; B:3; C:3
+Ruta_24_3 -> Place24:Place27 = P:4; B:4; C:4
+Ruta_24_5 -> Place24:Place29 = P:6; B:6; C:6
+Ruta_25_1 -> Place25:Place26 = P:2; B:2; C:2
+Ruta_25_2 -> Place25:Place27 = P:3; B:3; C:3
+Ruta_25_3 -> Place25:Place28 = P:4; B:4; C:4
+Ruta_25_5 -> Place25:Place30 = P:6; B:6; C:6
+Ruta_26_1 -> Place26:Place27 = P:2; B:2; C:2
+Ruta_26_2 -> Place26:Place28 = P:3; B:3; C:3
+Ruta_26_3 -> Place26:Place29 = P:4; B:4; C:4
+Ruta_26_5 -> Place26:Place31 = P:6; B:6; C:6
+Ruta_27_1 -> Place27:Place28 = P:2; B:2; C:2
+Ruta_27_2 -> Place27:Place29 = P:3; B:3; C:3
+Ruta_27_3 -> Place27:Place30 = P:4; B:4; C:4
+Ruta_27_5 -> Place27:Place32 = P:6; B:6; C:6
+Ruta_28_1 -> Place28:Place29 = P:2; B:2; C:2
+Ruta_28_2 -> Place28:Place30 = P:3; B:3; C:3
+Ruta_28_3 -> Place28:Place31 = P:4; B:4; C:4
+Ruta_28_5 -> Place28:Place33 = P:6; B:6; C:6
+Ruta_29_1 -> Place29:Place30 = P:2; B:2; C:2
+Ruta_29_2 -> Place29:Place31 = P:3; B:3; C:3
+Ruta_29_3 -> Place29:Place32 = P:4; B:4; C:4
+Ruta_29_5 -> Place29:Place34 = P:6; B:6; C:6
+Ruta_30_1 -> Place30:Place31 = P:2; B:2; C:2
+Ruta_30_2 -> Place30:Place32 = P:3; B:3; C:3
+Ruta_30_3 -> Place30:Place33 = P:4; B:4; C:4
+Ruta_30_5 -> Place30:Place35 = P:6; B:6; C:6
+Ruta_31_1 -> Place31:Place32 = P:2; B:2; C:2
+Ruta_31_2 -> Place31:Place33 = P:3; B:3; C:3
+Ruta_31_3 -> Place31:Place34 = P:4; B:4; C:4
+Ruta_31_5 -> Place31:Place36 = P:6; B:6; C:6
+Ruta_32_1 -> Place32:Place33 = P:2; B:2; C:2
+Ruta_32_2 -> Place32:Place34 = P:3; B:3; C:3
+Ruta_32_3 -> Place32:Place35 = P:4; B:4; C:4
+Ruta_32_5 -> Place32:Place37 = P:6; B:6; C:6
+Ruta_33_1 -> Place33:Place34 = P:2; B:2; C:2
+Ruta_33_2 -> Place33:Place35 = P:3; B:3; C:3
+Ruta_33_3 -> Place33:Place36 = P:4; B:4; C:4
+Ruta_33_5 -> Place33:Place38 = P:6; B:6; C:6
+Ruta_34_1 -> Place34:Place35 = P:2; B:2; C:2
+Ruta_34_2 -> Place34:Place36 = P:3; B:3; C:3
+Ruta_34_3 -> Place34:Place37 = P:4; B:4; C:4
+Ruta_34_5 -> Place34:Place39 = P:6; B:6; C:6
+Ruta_35_1 -> Place35:Place36 = P:2; B:2; C:2
+Ruta_35_2 -> Place35:Place37 = P:3; B:3; C:3
+Ruta_35_3 -> Place35:Place38 = P:4; B:4; C:4
+Ruta_35_5 -> Place35:Place40 = P:6; B:6; C:6
+Ruta_36_1 -> Place36:Place37 = P:2; B:2; C:2
+Ruta_36_2 -> Place36:Place38 = P:3; B:3; C:3
+Ruta_36_3 -> Place36:Place39 = P:4; B:4; C:4
+Ruta_36_5 -> Place36:Place41 = P:6; B:6; C:6
+Ruta_37_1 -> Place37:Place38 = P:2; B:2; C:2
+Ruta_37_2 -> Place37:Place39 = P:3; B:3; C:3
+Ruta_37_3 -> Place37:Place40 = P:4; B:4; C:4
+Ruta_37_5 -> Place37:Place42 = P:6; B:6; C:6
+Ruta_38_1 -> Place38:Place39 = P:2; B:2; C:2
+Ruta_38_2 -> Place38:Place40 = P:3; B:3; C:3
+Ruta_38_3 -> Place38:Place41 = P:4; B:4; C:4
+Ruta_38_5 -> Place38:Place43 = P:6; B:6; C:6
+Ruta_39_1 -> Place39:Place40 = P:2; B:2; C:2
+Ruta_39_2 -> Place39:Place41 = P:3; B:3; C:3
+Ruta_39_3 -> Place39:Place42 = P:4; B:4; C:4
+Ruta_39_5 -> Place39:Place44 = P:6; B:6; C:6
+Ruta_40_1 -> Place40:Place41 = P:2; B:2; C:2
+Ruta_40_2 -> Place40:Place42 = P:3; B:3; C:3
+Ruta_40_3 -> Place40:Place43 = P:4; B:4; C:4
+Ruta_40_5 -> Place40:Place45 = P:6; B:6; C:6
+Ruta_41_1 -> Place41:Place42 = P:2; B:2; C:2
+Ruta_41_2 -> Place41:Place43 = P:3; B:3; C:3
+Ruta_41_3 -> Place41:Place44 = P:4; B:4; C:4
+Ruta_41_5 -> Place41:Place46 = P:6; B:6; C:6
+Ruta_42_1 -> Place42:Place43 = P:2; B:2; C:2
+Ruta_42_2 -> Place42:Place44 = P:3; B:3; C:3
+Ruta_42_3 -> Place42:Place45 = P:4; B:4; C:4
+Ruta_42_5 -> Place42:Place47 = P:6; B:6; C:6
+Ruta_43_1 -> Place43:Place44 = P:2; B:2; C:2
+Ruta_43_2 -> Place43:Place45 = P:3; B:3; C:3
+Ruta_43_3 -> Place43:Place46 = P:4; B:4; C:4
+Ruta_43_5 -> Place43:Place48 = P:6; B:6; C:6
+Ruta_44_1 -> Place44:Place45 = P:2; B:2; C:2
+Ruta_44_2 -> Place44:Place46 = P:3; B:3; C:3
+Ruta_44_3 -> Place44:Place47 = P:4; B:4; C:4
+Ruta_44_5 -> Place44:Place49 = P:6; B:6; C:6
+Ruta_45_1 -> Place45:Place46 = P:2; B:2; C:2
+Ruta_45_2 -> Place45:Place47 = P:3; B:3; C:3
+Ruta_45_3 -> Place45:Place48 = P:4; B:4; C:4
+Ruta_45_5 -> Place45:Place0 = P:6; B:6; C:6
+Ruta_46_1 -> Place46:Place47 = P:2; B:2; C:2
+Ruta_46_2 -> Place46:Place48 = P:3; B:3; C:3
+Ruta_46_3 -> Place46:Place49 = P:4; B:4; C:4
+Ruta_46_5 -> Place46:Place1 = P:6; B:6; C:6
+Ruta_47_1 -> Place47:Place48 = P:2; B:2; C:2
+Ruta_47_2 -> Place47:Place49 = P:3; B:3; C:3
+Ruta_47_3 -> Place47:Place0 = P:4; B:4; C:4
+Ruta_47_5 -> Place47:Place2 = P:6; B:6; C:6
+Ruta_48_1 -> Place48:Place49 = P:2; B:2; C:2
+Ruta_48_2 -> Place48:Place0 = P:3; B:3; C:3
+Ruta_48_3 -> Place48:Place1 = P:4; B:4; C:4
+Ruta_48_5 -> Place48:Place3 = P:6; B:6; C:6
+Ruta_49_1 -> Place49:Place0 = P:2; B:2; C:2
+Ruta_49_2 -> Place49:Place1 = P:3; B:3; C:3
+Ruta_49_3 -> Place49:Place2 = P:4; B:4; C:4
+Ruta_49_5 -> Place49:Place4 = P:6; B:6; C:6

@@ -1,0 +1,18 @@
+Bienvenido a Mapas.
+Ruta del archivo de rutas: Ruta del archivo de clima (opcional, presione Enter para omitir): Lugar de origen: Lugar de destino: Modo      | Ruta                              | Costo total | Tipo
+----------+-----------------------------------+-------------+------------
+A pie     | A -> B -> C -> D                  | 4.00        | Optima
+A pie     | A -> C -> D                       | 6.00        | Alternativa
+Bus       | A -> C -> D                       | 4.00        | Optima
+Bus       | A -> B -> D                       | 7.00        | Alternativa
+Carro     | A -> C -> D                       | 3.00        | Optima
+Carro     | A -> B -> C -> D                  | 3.00        | Alternativa
+Elija una accion: [n]ueva ruta, [c]ambiar archivos, [s]alir Ruta del archivo de rutas: Ruta del archivo de clima (opcional, presione Enter para omitir): Lugar de origen: Lugar de destino: Modo      | Ruta                              | Costo total | Tipo
+----------+-----------------------------------+-------------+------------
+A pie     | B -> C -> D                       | 2.00        | Optima
+A pie     | B -> D                            | 4.00        | Alternativa
+Bus       | B -> D                            | 2.00        | Optima
+Bus       | B -> C -> D                       | 3.00        | Alternativa
+Carro     | B -> C -> D                       | 2.00        | Optima
+Carro     | B -> D                            | 3.00        | Alternativa
+Elija una accion: [n]ueva ruta, [c]ambiar archivos, [s]alir 
