@@ -132,6 +132,13 @@ int cli_run_with_streams(FILE *in, FILE *out)
             char error[LINE_SIZE];
             if (cli_load_route_file(&g, buf, error, sizeof(error))) {
                 loaded = 1;
+                fprintf(out, "Archivo de rutas cargado correctamente: %s\n", buf);
+                /* Mostrar lista de lugares disponibles para ayudar al usuario */
+                fprintf(out, "Lugares disponibles:\n");
+                for (int i = 0; i < g->place_count; i++) {
+                    fprintf(out, " - %s\n", g->places[i].name);
+                }
+                fflush(out);
             } else {
                 fprintf(out, "%s\n", error);
             }
@@ -148,6 +155,12 @@ int cli_run_with_streams(FILE *in, FILE *out)
             char error[LINE_SIZE];
             if (cli_load_weather_file(&wm, buf, error, sizeof(error))) {
                 loaded = 1;
+                if (buf[0] == '\0') {
+                    fprintf(out, "Sin archivo de clima. Se usarán los costes base.\n");
+                } else {
+                    fprintf(out, "Archivo de clima cargado correctamente: %s\n", buf);
+                }
+                fflush(out);
             } else {
                 fprintf(out, "%s\n", error);
             }

@@ -49,19 +49,81 @@ La entrega del proyecto constará de un informe escrito no mayor a 5 páginas qu
 
 ## Compilación
 
-Requiere GCC y Make.
+Recomendado: compilar en WSL (Debian) usando GCC y Make. A continuación se muestra un flujo paso a paso y soluciones comunes.
+
+Usando Make en WSL (Debian)
+
+1) Preparar WSL y dependencias:
+
+```bash
+# abrir WSL y situarse en la raíz del repo (ej: /mnt/c/Users/<tu_usuario>/source/repos/mapas)
+sudo apt update
+sudo apt install -y build-essential make gcov dos2unix
+```
+
+2) Compilar con Make (desde la raíz donde está el `Makefile`):
 
 ```bash
 make
+# binario generado: build/mapas
 ```
 
-En Windows sin Make:
+3) Ejecutar la aplicación:
+
+```bash
+./build/mapas
+```
+
+4) Ejecutar tests unitarios/integración:
+
+```bash
+make test
+```
+
+5) Cobertura (opcional):
+
+```bash
+make coverage
+```
+
+6) Limpiar artefactos de compilación:
+
+```bash
+make clean
+```
+
+Compilación directa con GCC (sin Make)
+
+```bash
+gcc -std=c11 -O2 -Wall -Wextra -pedantic -Iinclude -Itests/unity -o build/mapas src/*.c
+```
+
+Opciones avanzadas
+
+- Compilar con flags de depuración:
+
+```bash
+make CFLAGS="-std=c11 -g -O0 -Wall -Iinclude -Itests/unity"
+```
+
+- Convertir finales de línea si hay problemas con Make o scripts (CRLF -> LF):
+
+```bash
+dos2unix Makefile
+```
+
+Problemas comunes y soluciones rápidas
+
+- "make: command not found": instalar `make` (`sudo apt install make`).
+- Errores de include: confirmar que `include/` existe y que `CFLAGS` contiene `-Iinclude -Itests/unity`.
+- Errores de linking a `-lm`: normalmente no ocurre en Debian; asegúrate de tener `build-essential` instalado.
+- Permisos: si el binario no es ejecutable `chmod +x build/mapas`.
+
+En Windows sin Make (alternativa):
 
 ```bat
 build.bat
 ```
-
-El ejecutable se genera en `build/mapas`.
 
 ## Ejecutar pruebas
 
