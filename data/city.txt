@@ -5,7 +5,6 @@ Plaza_Bolivar
 Universidad
 Terminal
 
-Rutas
 RutaA -> Heladeria:Ferreteria = P:2.5; B:0; C:1.0
 RutaB -> Heladeria:Ferreteria = P:2.5; B:13.0; C:10.0
 RutaC -> Ferreteria:Plaza_Bolivar = P:5.0; B:2.0; C:1.5
