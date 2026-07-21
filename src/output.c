@@ -145,6 +145,26 @@ static void print_padded_colored(FILE *out, const char *s, int width, const char
  */
 void output_results_to_stream(FILE *out, const Graph *g, const PathResult *results)
 {
+    //  Nueva validcion para mostrar mensaje amigable si no hay NINGUNA ruta
+    int total_rutas_validas = 0;
+    for (int m = 0; m < MODE_COUNT; m++) {
+        if (results[m].has_best && results[m].best.place_count > 0 && results[m].best.total_cost < INF_COST / 2.0) {
+            total_rutas_validas++;
+        }
+        if (results[m].has_second && results[m].second.place_count > 0 && results[m].second.total_cost < INF_COST / 2.0) {
+            total_rutas_validas++;
+        }
+    }
+
+    if (total_rutas_validas == 0) {
+        fprintf(out, "\n======================================================================\n");
+        fprintf(out, " [!] ALERTA: No existe ningun camino transitable para ningun transporte.\n");
+        fprintf(out, "     Causa posible: Las vias estan bloqueadas, intransitables por clima\n");
+        fprintf(out, "     o los puntos no estan conectados en el mapa.\n");
+        fprintf(out, "======================================================================\n\n");
+        return; //Detenemos la ejecución aquí para no impriir una tabla vacía
+    }
+
     int route_width = compute_route_width(g, results);
     int use_color = 0;
 

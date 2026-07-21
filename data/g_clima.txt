@@ -1,0 +1,2 @@
+Ruta_Paralela_2 = P:0; B:1.0; C:1.0
+Ruta_Direc_1 = P:1.0; B:0; C:4.0
