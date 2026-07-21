@@ -1,8 +1,12 @@
-Modo      | Ruta                              | Costo total | Tipo
-----------+-----------------------------------+-------------+------------
-A pie     | Origen -> Destino                 | 3.50        | Optima
-A pie     | No hay ruta disponible            | -           | Alternativa
-Bus       | Origen -> Destino                 | 3.50        | Optima
-Bus       | No hay ruta disponible            | -           | Alternativa
-Carro     | Origen -> Destino                 | 3.50        | Optima
-Carro     | No hay ruta disponible            | -           | Alternativa
++----------+-----------------------------------+-------------+-------------+
+| Modo     | Ruta                              | Costo total | Tipo        |
++==========+===================================+=============+=============+
+| >> A pie | Origen -> Destino                 |        3.50 | Optima      |
+|    A pie | -                                 |           - | Alternativa |
++----------+-----------------------------------+-------------+-------------+
+| >> Bus   | Origen -> Destino                 |        3.50 | Optima      |
+|    Bus   | -                                 |           - | Alternativa |
++----------+-----------------------------------+-------------+-------------+
+| >> Carro | Origen -> Destino                 |        3.50 | Optima      |
+|    Carro | -                                 |           - | Alternativa |
++----------+-----------------------------------+-------------+-------------+

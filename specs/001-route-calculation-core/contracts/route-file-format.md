@@ -13,6 +13,7 @@ nombre_lugar_1
 nombre_lugar_2
 ...
 nombre_lugar_N
+Rutas
 nombre_ruta -> lugar_partida:lugar_llegada = P:costo; B:costo; C:costo
 ```
 
@@ -26,9 +27,19 @@ The first line MUST be exactly:
 Lugares
 ```
 
+### Routes Header
+
+After the last place name, the file MUST contain a line exactly:
+
+```text
+Rutas
+```
+
+This header separates the place list from the route list.
+
 ### Place Names
 
-After the header, each subsequent line until the first route line contains a single place name. Place names:
+After the `Lugares` header, each subsequent line until the `Rutas` header contains a single place name. Place names:
 
 *   MUST contain only ASCII letters, digits, and underscores (`A-Z`, `a-z`, `0-9`, `_`).
 *   MUST be unique within the file.
@@ -36,7 +47,7 @@ After the header, each subsequent line until the first route line contains a sin
 
 ### Route Definitions
 
-Each route definition occupies one line and follows this exact format:
+After the `Rutas` header, each route definition occupies one line and follows this exact format:
 
 ```text
 nombre_ruta -> lugar_partida:lugar_llegada = P:costo; B:costo; C:costo
@@ -57,6 +68,7 @@ Lugares
 Heladeria
 Ferreteria
 Parque
+Rutas
 RutaA -> Heladeria:Ferreteria = P:2.5; B:0; C:1
 RutaB -> Heladeria:Ferreteria = P:2.5; B:13; C:10
 RutaC -> Ferreteria:Parque = P:1; B:2; C:0.5
@@ -65,6 +77,7 @@ RutaC -> Ferreteria:Parque = P:1; B:2; C:0.5
 ## Validation Rules
 
 *   The file MUST begin with the `Lugares` header.
+*   The `Rutas` header MUST appear after the place list and before any route definition.
 *   At least one place and one route MUST be defined.
 *   Every route MUST reference places that appear in the place list.
 *   Route names MUST be unique within the file.
